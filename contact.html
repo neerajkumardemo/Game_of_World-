@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>contact us</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+   <link rel="stylesheet" href="css/style.css">
+</head>
+<body>  
+<header class="header">
+   <section class="flex">
+      <a href="#" class="logo"> <i class="fa-solid fa-gamepad"></i> World Of Game</a>
+      <nav class="navbar">
+         <a href="Main Page.html">Home</a>
+         <a href="about.html">About</a>
+         <a href="contact.html">Contact</a>
+      </nav>
+   </section>
+</header>
+<section class="contact">
+   <div class="row">
+      <div class="image">
+         <img src="images/contact-img.svg" alt="">
+      </div>
+
+      <form action="" method="post">
+         <h3>tell us something!</h3>
+         <input type="text" name="name" required placeholder="enter your name" maxlength="50" class="box">
+         <input type="number" name="number" required placeholder="enter your number" max="9999999999" min="0" class="box" onkeypress="if(this.value.length == 10) return false;">
+         <input type="email" name="email" required placeholder="enter your email" maxlength="50" class="box">
+         <textarea name="msg" placeholder="enter your message" required class="box" cols="30" rows="10" maxlength="500"></textarea>
+         <input type="submit" value="send message" class="btn" name="send">
+      </form>
+
+   </div>
+</section>
+<footer class="footer">
+   <section class="box-container">
+      <div class="box">
+         <img src="images/email-icon.png" alt="">
+         <h3>Our Email</h3>
+         <a href="mailt:Neerajkumar@gmail.com">NeerajKumar@gmail.com</a>
+      </div>
+      <div class="box">
+         <img src="images/clock-icon.png" alt="">
+         <h3>Opening Hours</h3>
+         <p>24/7 Hours</p>
+      </div>
+      <div class="box">
+         <img src="images/map-icon.png" alt="">
+         <h3>Our Address</h3>
+         <a href="https://www.google.com/maps">Ludhiana,Punjab -141010</a>
+      </div>
+      <div class="box">
+         <img src="images/phone-icon.png" alt="">
+         <h3>Our Number</h3>
+         <a href="tel:1234567890">+91 8847-39-9071</a>
+      </div>
+   </section>
+   <div class="credit">&copy; copyright @ 2024 by <span>Mr Neeraj Kumar</span> | all rights reserved!</div>
+</footer>
+</body>
+</html>
